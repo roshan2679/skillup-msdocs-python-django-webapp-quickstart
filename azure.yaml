@@ -5,9 +5,9 @@
 # To learn more about the azure.yaml file, visit https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/azd-schema
 
 # Name of the application.
-name: msdocs-python-django-webapp-quickstart
+name: skillup-msdocs-python-django-webapp-quickstart
 metadata:
-  template: msdocs-python-django-webapp-quickstart@0.0.1-beta
+  template: skillup-msdocs-python-django-webapp-quickstart@0.0.1-beta
 services:
   web:
     project: .
