@@ -18,16 +18,16 @@ param location string
 // "resourceGroupName": {
 //      "value": "myGroupName"
 // }
-param resourceGroupName string = ''
-param appServiceName string = ''
-param appServicePlanName string = ''
+param resourceGroupName string = 'rk-skillup-python-rg'
+param appServiceName string = 'rk-skillup-service'
+param appServicePlanName string = 'rk-skillup-serviceplan'
 
 var abbrs = loadJsonContent('./abbreviations.json')
 
 // tags that should be applied to all resources.
 var tags = {
   // Tag all resources with the environment name.
-  'azd-env-name': environmentName
+  'azd-env-name': development
 }
 
 // Generate a unique token to be used in naming resources.
